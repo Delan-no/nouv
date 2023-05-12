@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+/****************************
+            header
+*****************************/
+header{  background-color: #00748D;}
+.header{
+  
+    padding-inline: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    margin-left: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+header .a{
+    color: white;
+    font-size: 2rem;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: .9rem;
+}
+header a:hover,
+header a:focus{
+    background-color: white;
+    color: #00748D;
+}
+header a.active{
+    background-color: white;
+    color: #00748D;
+}
+header span{
+    color:#CB8606;
+}
+header li{
+    padding: .5rem;
+}
+/************footer***************/
+.footer1{
+    background-color: #00748D;
+}
+.footer{
+    display: flex;
+    background-color: #00748D;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding: 1rem;
+    padding-inline: 7rem;
+}
+.footer i{
+    color:white;
+    font-size: 2rem;
+    letter-spacing: 1.5rem;
+}
+.ij{
+    background-image: url("./instructions/images/path.png");
+    background-repeat: repeat-x;
+    padding-bottom: .5rem;
+}
+.span{
+    color: white;
+    font-size: 2rem;
+}
+.footerfooter{
+    text-align: center;
+    background-color: rgb(63, 60, 60);
+    padding-bottom: 1rem;
+    color: white;
+}
+.footerfooter img{
+    width: 5%;
+    margin-top: 25px;
+}
+.footerfooter p{
+    font-size: 2rem;
+}
+body{
+    font-family: Nunito;
+    font-size: 18px;
+    color: #414141;
+}
+h1,h2, nav ul a{
+    font-family: 'fjalla one';
+}
+.wrap section img{
+    max-width: 100%;
+}
+.actualite{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.wrap{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.section{
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+..wrap h2 {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
